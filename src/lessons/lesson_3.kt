@@ -11,7 +11,7 @@ fun main(){
     println(text?.length)
 
     // TODO Safe call with let ( ?.let )  - открывается лямбда ф-я
-    // этот блок вызевится если переменная не null
+    // этот блок вызовится если переменная не null
     text?.let {
         println(it.length) // it - это у нас text. Внутри {} мы можем обращаться через it
     }
