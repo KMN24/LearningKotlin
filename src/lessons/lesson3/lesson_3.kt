@@ -41,7 +41,7 @@ fun main(){
     // но если пере-я будет null то у нас выйдет ошибка NUllPointerException
     text = null
     try {
-        println(text!!.length)
+        println(text?.length)
     }
     catch ( excep: NullPointerException){
         println("Вышла ошибка NullPointerException")
